@@ -1,0 +1,21 @@
+.box_shadow {
+    box-shadow: 3px -5px 88px -1px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 3px -5px 88px -1px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 3px -5px 88px -1px rgba(0, 0, 0, 0.51);
+}
+
+
+.back-to-top {
+    background-color: #002d6d;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
