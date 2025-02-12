@@ -143,20 +143,19 @@ const PropertyDetails = () => {
                                     semper habitasse, tempus velit gravida aptent per class congue.
                                 </p>
                             </div>
-
                             <div className="bg-[#002d6d] text-white rounded-2xl p-6 max-w-4xl mx-auto shadow-lg">
                                 <h2 className="text-xl font-semibold">Features</h2>
                                 <hr className="border-t border-white my-4" />
-                                <div className="grid grid-cols-3 gap-4">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                                     {features.map((feature, index) => (
                                         <div key={index} className="flex items-center space-x-2">
                                             <FaCheck size={4} className="text-[#002d6d] flex items-center justify-center p-1 w-4 h-4 rounded-full bg-[#4C9574]" />
                                             <span className="text-base">{feature}</span>
                                         </div>
-
                                     ))}
                                 </div>
                             </div>
+
                         </div>
 
                         {/* Inquiry Form */}

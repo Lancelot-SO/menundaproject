@@ -34,7 +34,7 @@ const Home = () => {
 
     return (
         <div className='overflow-hidden'>
-            <div className="relative flex flex-col lg:flex-row justify-between items-center w-full px-4 lg:px-[200px] py-[20px] h-[100vh] bg-[#f4f8fa]">
+            <div className="relative flex flex-col lg:flex-row justify-between items-center w-full px-4 lg:px-[200px] py-[20px] h-[900px] bg-[#f4f8fa]">
                 {/* Left Section */}
                 <div className="flex flex-col items-start w-full lg:w-auto relative">
                     <img
